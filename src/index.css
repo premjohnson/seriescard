@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+   font-size: 67.5%;
+   /* background-color: rgba(21, 18, 18, 0.564); */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-weight: 900;
+}
+h1 {
+  font-size: 3.2rem;
+}
+p,
+li,
+a,
+label {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    color:#1b1919c8 ;
+    line-height: 1.5;
+    font-weight: 300;
+}
+li {
+    list-style: none;
+}
+
+ a{
+    text-decoration: none;
+ }
+  :root {
+    --main-color: rgb(72, 72, 129);
+    --supporting-color: #ebdbdb;
+    --font-color:rgb(32, 30, 30);
+    --bg-color:#fff;
+    --heading-color: black;
+    --h-color:black;
+    --white-color: #fff;
+    --test:black;
+    --para-color:black;
+    --btn-hover-bg-color:rgba(8, 8, 66, 0.355);
+    --btn-box-shodow: black 0px 7px 29px 0px;
+  }
+.container {
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 5.1rem 7.4rem;
+}
+.grid {
+    display: grid;
+    gap: 5.7rem;
+}
+.grid-two-cols {
+    grid-template-columns: repeat(2. 1fr);
+
+}
+.grid-three--cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+
